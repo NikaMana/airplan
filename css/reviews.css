@@ -50,12 +50,6 @@
     font-size: 14px;
     font-weight: bold;  
 }
-
-.bunner{
-	width: 900px;
-	height: 290px;
-	float: right; 
-}
 .body{
 	margin: > 0;
 	padding: > 0;
@@ -109,66 +103,32 @@
 .nav__item--active .nav__title {
 	color: black;
 }
-.tarrifs__icon{
-	background-color: #4b73b5;
-	border-radius: 50%;
-	width: 66px;
-	height: 66px;
-	text-align: center;
-	margin: 0 auto;
-	margin-bottom: 35px;
-	position: relative;
-}
-.tarrifs__icon-img{
-	overflow: hidden;
-	border-radius: 100%;
-	width: 68px;
-	height: 68px; 
-	background: center center no-repeat;
-	background-color: #4b73b5;
-}
-.tarrifs__icon-img--flower{
-	background-image: url(../images/flower.png);
-}
-.tarrifs__icon-img--star{
-	background-image: url(../images/star.png);
-}
-.tarrifs__icon-img--palet{
-	background-image: url(../images/palet.png);
-}
-.tarrifs__list{
-	display: flex;
-	justify-content: center;
-}
-.a {
-	line-height: 100px;
-    display: inline-block;
-}
-.tarrifs__item{
-	height: 455px;
-	width: 250px;
-	padding: 30px;
-}
-.news__item{
+.review__item{
 	display: flex;
 	overflow: hidden;
 }
-.news__avatar{
+.review__avatar{
 	margin: 20px;
 }
-.avatar-plane{
+.avatar-girl{
 	overflow: hidden;
 	border-radius: 100%;
 	width: 160px;
 	height: 160px;
 }
-.avatar-sky{
+.avatar-man{
 	overflow: hidden;
 	border-radius: 100%;
 	width: 160px;
 	height: 160px;
 }
-.avatar-child{
+.avatar-grey{
+	overflow: hidden;
+	border-radius: 100%;
+	width: 160px;
+	height: 160px;
+}
+.avatar-granny{
 	overflow: hidden;
 	border-radius: 100%;
 	width: 160px;
@@ -176,13 +136,23 @@
 }
 .pagination{
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
+}
+.pagination__item.active .pagination__link{
+	color: #fff;
+	background-color: #4b73b5;
+}
+.pagination__link: hover{
+
+} 
+.pagination__item {
+	display: inline-block;
+	vertical-align: middle;
 }
 .pagination__display{
 	display: flex;
-	align-items: center;
-	
+	align-items: center;	
 }
 .pagination__pages{
 	margin: 0;
@@ -197,7 +167,29 @@
 	align-items: center;
 	justify-content: space-between;
 }
-
+.support{
+	display: flex;
+	justify-content: space-between;
+	align-self: flex-end;
+	height: 170px;
+	background: #4bb56b;
+}
+.support__text{
+	display: flex;
+	justify-content: space-between;
+}
+.commentsform{
+	background: #f5f5f5;
+}
+.commentsform__text{
+	width: 270px;
+	height: 45px;
+	font-size: 14px;
+	color: #a9a8a8;
+	padding: >0;
+	box-sizing: border-box;
+	border: none;
+}
 .footer{
 	display: flex;
 	justify-content: space-between;

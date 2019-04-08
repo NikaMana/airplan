@@ -3,99 +3,94 @@
 <head>
 <meta charset="utf-8">	
 <title>Main page</title>
+<meta name="viewport" content="widht=1100, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
-<link rel="stylesheet" href="./css/main.css">    
+<link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
 <div class="wrapper">
+    <div class="wrapper-content">
     <header class="header">
         <div class="container container--flex">
     		<div class="logo">
-                <a href="tel: 8 (800) 00-392-10" class="logo">
-                <img class="logo" src="images/logo_header.png" alt="Логотип Air Planet">
-                </a>
+                <img class="logo__link" src="images/logo_header.png" alt="Логотип Air Planet">
             </div>
             <div class="company-contacts">
-                <p class="info-company__phone">8 (800) 00-392-10</p>
-                <button class="info-company__text" href="#">График работы</button>
+                <p class="company-contacts__phone">8 (800) 00-392-10</p>
+                <button class="company-contacts__text" href="#">График работы</button>
                 <!--выпадашка-->
             </div>
     </header> 
-    <div class="bunner">
-        <img class="bunner" src="images/main_photo_plain.png" alt="Баннер Air Planet">
-    </div>
+    
     	<div class="maincontent">
         <div class="container-content">
             <aside class="aside">
                 <nav class="nav">
                     <ul class="nav__list">
+                        <li class="nav__item nav__item--active">
+                            <div class="nav__link">
+                            <div class="nav__icon nav__icon--direction"></div>
+                            <div class="nav__title">Главная</div>
+                            </div>
+                        </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__link">
-                            <span class="nav__icon">
-                                <img class="icon-main" src="images/main_icon.png" alt="Иконка Главная">
-                            </span>
-                            <span class="nav__title">Главная</span>
+                            <a href="reviews.html" class="nav__link">
+                            <div class="nav__icon nav__icon--star"></div>
+                            <div class="nav__title">Отзывы</div>
                             </a>
                         </li>
                         <li class="nav__item">
                             <a href="#" class="nav__link">
-                            <span class="nav__icon">
-                                <img class="icon-rewies" src="images/feed_icon.png" alt="Иконка Отзывы">
-                            </span>
-                            <span class="nav__title">Отзывы</span>
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">
-                            <span class="nav__icon">
-                                <img class="icon-crew" src="images/team_icon.png" alt="Иконка Экипаж">
-                            </span>
-                            <span class="nav__title">Экипаж</span>
+                            <div class="nav__icon nav__icon--crew"></div>
+                            <div class="nav__title">Экипаж</div>
                             </a>
                         </li>
                     </ul>
                 </nav>
             </aside>
             <main class="main">
+                <div class="bunner">
+        <img class="bunner__img" src="images/main_photo_plain.png" alt="Баннер Air Planet">
+                </div>
                 <section class="tarrifs">
-                    <h2 class="route__base-name">Тарифы</h2>
+                    <h1 class="tarrifs__name">Тарифы</h1>
                     <ul class="tarrifs__list">
                         <li class="tarrifs__item">
                             <div class="tarrifs__icon">
-                                <div class="tarrifs__icon-img tarrifs__icon--flower"></div>
+                                <div class="tarrifs__icon-img tarrifs__icon-img--flower"></div>
                             </div>
                             <h3 class="tarrifs__title">стандарт</h3>
                             <div class="tarrifs__text">Создан для вашего комфортного отдыха</div>
                                <ul class="descr-list">
-                                   <li class="tarrifs__descr-item">Питание включено</li>
-                                   <li class="tarrifs__descr-item">Багаж (5 кг)</li>
-                                   <li class="tarrifs__descr-item">Детское кресло</li>
+                                   <li class="tarrifs__descr-list">Питание включено</li>
+                                   <li class="tarrifs__descr-list">Багаж (5 кг)</li>
+                                   <li class="tarrifs__descr-list">Детское кресло</li>
                                </ul> 
                             <div class="tarrifs__price">$ 19</div>
                         </li>
                         <li class="tarrifs__item">
                             <div class="tarrifs__icon">
-                                <div class="tarrifs__icon-img tarrifs__icon--star"></div>
+                                <div class="tarrifs__icon-img tarrifs__icon-img--star"></div>
                             </div>
                             <h3 class="tarrifs__title">премиум</h3>
                             <div class="tarrifs__text">Для любителей хороших впечатлений</div>
                                <ul class="descr-list">
-                                   <li class="tarrifs__descr-item">Питание включено</li>
-                                   <li class="tarrifs__descr-item">Багаж (5 кг)</li>
-                                   <li class="tarrifs__descr-item">Детское кресло</li>
+                                   <li class="tarrifs__descr-list">Питание включено</li>
+                                   <li class="tarrifs__descr-list">Багаж (5 кг)</li>
+                                   <li class="tarrifs__descr-list">Детское кресло</li>
                                </ul> 
                             <div class="tarrifs__price">$ 39</div>
                         </li>
                         <li class="tarrifs__item">
                             <div class="tarrifs__icon">
-                                <div class="tarrifs__icon-img tarrifs__icon--palet"></div>
+                                <div class="tarrifs__icon-img tarrifs__icon-img--palet"></div>
                             </div>
                             <h3 class="tarrifs__title">лакшери</h3>
                             <div class="tarrifs__text">Все самое лучшее и незабываемое</div>
                                <ul class="descr-list">
-                                   <li class="tarrifs__descr-item">Питание включено</li>
-                                   <li class="tarrifs__descr-item">Багаж (5 кг)</li>
-                                   <li class="tarrifs__descr-item">Детское кресло</li>
+                                   <li class="tarrifs__descr-list">Питание включено</li>
+                                   <li class="tarrifs__descr-list">Багаж (5 кг)</li>
+                                   <li class="tarrifs__descr-list">Детское кресло</li>
                                </ul> 
                             <div class="tarrifs__price">$ 99</div>
                         </li>
@@ -168,32 +163,33 @@
                     </div>
             </main>
         </div>
-        </div> 
+        </div>
+    </div>
         <footer class="footer">
                 <div class="container container--flex">
-                    <div class="footer-text">Сделано с любовью и старанием <br> на курсе "HTML+CSS" в <a class="LoftSchool" href="http://loftschool.com">LoftSchool</a>.<br>Автор работы: <strong>Прохладов Вадим</strong>
+                    <div class="footer__text">Сделано с любовью и старанием <br> на курсе "HTML+CSS" в <a class="footer__text-link" href="http://loftschool.com">LoftSchool</a>.<br>Автор работы: <strong>Прохладов Вадим</strong>
                     </div>
                     <div class="logo">
                         <a href="tel: 8 (800) 00-392-10" class="logo">
-                        <img class="logo" src="images/logo_header.png" alt="Логотип Air Planet">
+                        <img class="logo__link" src="images/logo_header.png" alt="Логотип Air Planet">
                         </a>
                     </div> 	
     	            <div class="socials">            
-    	            <h4 class="Our-social">Наши социальные сети</h4>
+    	               <h4 class="socials__title">Наши социальные сети</h4>
     	               <ul class="social__list">
-    		              <li class="VK">
+    		              <li class="socials__item">
                             <a class="social__link social__link--vk"></a>
                           </li>
-                          <li class="Fb">
+                          <li class="socials__item">
                             <a class="social__link social__link--fb"></a>
                           </li>
-                          <li class="Google">
+                          <li class="socials__item">
                             <a class="social__link social__link--google"></a>
                           </li>
-                          <li class="Twitter">
+                          <li class="socials__item">
                             <a class="social__link social__link--twitter"></a>
                           </li>
-                          <li class="Mail">
+                          <li class="socials__item">
                             <a class="social__link social__link--mail"></a>
                           </li>    		              
     	               </ul>
