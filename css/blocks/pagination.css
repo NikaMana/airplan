@@ -1,0 +1,44 @@
+.pagination{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 60px;
+	font-family: roboto;
+}
+.pagination__display{
+	display: flex;
+	align-items: center;
+	margin-right: 20px;
+	
+}
+.pagination__pages{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	list-style: none;
+}
+.pagination__controlls{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.pagination__prev{
+	margin-right: 18px;
+	text-decoration: none;
+}
+.pagination__pages-item{
+	margin-right: 18px;
+}
+.pagination__next{
+	text-decoration: none;
+}
+.pagination__link{
+	text-decoration: none;
+}
+.pagination__link--active{
+	background: #4b73b5;
+	text-decoration: none;
+	color: white;
+}
