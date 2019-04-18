@@ -1,0 +1,13 @@
+.breadcrumbs{
+	text-decoration: none;
+}
+.breadcrumbs__pages{
+	display: flex;
+}
+.breadcrumbs__pages-item{
+	margin-right: 5px;
+	list-style: none;
+}
+.breadcrumbs__pages-item:last child{
+	margin-right: 0;
+}

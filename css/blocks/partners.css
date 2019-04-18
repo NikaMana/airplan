@@ -1,0 +1,15 @@
+.part__list{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+.part__item{
+	overflow: hidden;
+	border-radius: 100%;
+	width: 33.3%;
+	height: 68px; 
+	background: center center no-repeat;
+	list-style: none;
+}
+

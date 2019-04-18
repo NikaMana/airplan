@@ -1,0 +1,16 @@
+.support{
+	background-color: #4bb56b;
+	background-image: url(../images/mark.png);
+	background-repeat: repeat;
+	margin-bottom: 60px;
+}
+.support__text{
+	width: 700px;
+	margin: 0 auto;
+	padding: 40px 0;
+	color: #fff;
+}
+.support__phone{
+	font-family: roboto, arial,sans-serif;
+	font-weight: 700;
+}

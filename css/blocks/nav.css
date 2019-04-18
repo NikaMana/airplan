@@ -1,0 +1,67 @@
+.nav{
+	margin-top: 40px;
+	margin-left: 20px;
+}
+.nav__item{
+	list-style: none;
+	overflow: hidden;
+}
+.nav__link{
+	text-decoration: none;
+	display: flex;
+	font-family: roboto;
+	text-transform: uppercase;
+	color:#4b73b5;
+	margin: 20px;
+}
+.nav__link:hover{
+	color: black;
+}
+.nav__title{
+	font-family: roboto, arial, sans-serif;
+}
+.nav__icon{
+	margin-right: 20px;
+	width: 24px;
+	height: 20px;
+	background: center center no-repeat;
+	color: black;
+	transition: 1.5s;
+}
+.nav__icon--direction{
+	background-image: url(../images/main_icon.png);
+}
+.nav__icon--star{
+	background-image: url(../images/feed_icon.png);
+}
+.nav__icon--crew{
+	background-image: url(../images/team_icon.png);
+}
+.nav__link:hover .nav__icon--direction{
+	background-image: url(../images/main_icon-hover.png);
+}
+.nav__link:hover .nav__icon--star{
+	background-image: url(../images/feed_icon-hover.png);
+}
+.nav__link:hover .nav__icon--crew{
+	background-image: url(../images/team_icon-hover.png);
+}
+.nav__link:hover .nav__title{
+	color: black;
+	transition: 1.5s;
+}
+.nav__item--active .nav__icon--direction{
+	background-image: url(../images/main_icon.png);
+}
+.nav__item--active .nav__icon--star{
+	background-image: url(../images/feed_icon.png);
+}
+.nav__item--active .nav__icon--crew{
+	background-image: url(../images/team_icon.png);
+}
+.nav__item--active .nav__title {
+	color: black;
+}
+.nav__item:last child {
+	margin-bottom: 0;
+}

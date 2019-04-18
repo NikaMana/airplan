@@ -31,6 +31,17 @@
 .pagination__pages-item{
 	margin-right: 18px;
 }
+.pagination__pages-item .pagination__pages-item--active{
+	margin-right: 10px;
+}
+.pagination__pages-item--active .pagination__link{
+	background-color: #4b73b5;
+	text-decoration: none;
+	color: #fff;
+	padding: 5px;
+	border-radius: 3px;
+	margin-right: 0;
+}
 .pagination__next{
 	text-decoration: none;
 }
@@ -41,4 +52,6 @@
 	background: #4b73b5;
 	text-decoration: none;
 	color: white;
+	
+	margin-right: 0;
 }

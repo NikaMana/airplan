@@ -1,0 +1,24 @@
+.company-contacts{
+  padding-bottom: 10px;
+}
+.company-contacts__phone{
+	color: white;
+  	font-size: 21px;
+  	font-family: roboto;
+  	font-weight: 700;
+  	border: none;
+    margin-bottom: 5px;
+}
+
+.company-contacts__text{
+	color: white;
+    font-size: 14px;
+    font-family: roboto;
+    font-weight: 700;
+    background-color: transparent;  
+}
+.company-contacts__shedule-button{
+  border: none;
+  background: #4b73b5;
+  cursor: pointer;
+}

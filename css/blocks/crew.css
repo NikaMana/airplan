@@ -1,0 +1,61 @@
+.crew{
+}
+.crew__desk{
+	text-align: center;
+}
+.crew__icon{
+	overflow: hidden;
+	border-radius: 50%;
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	position: relative;
+}
+.crew__icon-effect{
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	background-color: rgba(75, 115, 181, 0.6);
+	font-family: "Roboto-Bold", Arial,sans-serif;
+	font-size: 24px;
+	line-height: 165px;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	top:0;
+	right: 0;
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+.crew__icon-effect:hover{
+	opacity: 0;
+	overflow: hidden;
+	border-radius: 50%;
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	position: relative;
+}
+.crew__icon-img{
+	overflow: hidden;
+}
+.crew__item{
+	width: 33.3%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30px;
+}
+.crew__list{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-decoration: none;
+	text-align: center;
+}

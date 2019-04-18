@@ -1,0 +1,21 @@
+.news__list{
+	margin-bottom: 60px;
+	font-family: roboto, arial, sans-serif;
+}
+.news__item{
+	display: flex;
+	overflow: hidden;
+}
+.news__avatar{
+	margin: 20px;
+	overflow: hidden;
+	border-radius: 100%;
+	width: 160px;
+	height: 160px;
+	flex-shrink: 0;
+	margin: 20px;
+}
+.news__desc{
+	font-family: roboto, arial, sans-serif;
+}
+
