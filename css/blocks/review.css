@@ -3,11 +3,33 @@
 	margin: 65px;
 }
 .review__avatar{
-	background-image: url(../images/grey.png); 
+	background-image: url(../../images/grey.png); 
 	overflow: hidden;
 	border-radius: 100%;
 	width: 160px;
 	height: 160px;
 	margin-right: 20px;
 	flex-shrink: 0;
+}
+.review__desc{
+	font-family: roboto, arial, sans-serif;
+}
+.review__date{
+	font-family: roboto, arial, sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	margin: 20px;
+}
+
+.review__username{
+	font-family: roboto, arial, sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	margin: 20px;
+	
+}
+.review__desc-text{
+	font-family: "roboto", arial, sans-serif;
+	font-weight: 300;
+	margin: 20px;
 }

@@ -2,18 +2,18 @@
   padding-bottom: 10px;
 }
 .company-contacts__phone{
-	color: white;
+	 color: white;
   	font-size: 21px;
-  	font-family: roboto;
+  	font-family: roboto, arial, sans-serif;
   	font-weight: 700;
   	border: none;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
-
 .company-contacts__text{
 	color: white;
     font-size: 14px;
-    font-family: roboto;
+    font-family: roboto, arial, sans-serif;
     font-weight: 700;
     background-color: transparent;  
 }
@@ -21,4 +21,38 @@
   border: none;
   background: #4b73b5;
   cursor: pointer;
+}
+.company-contacts__dropdown{
+  position: relative;
+  display: flex;
+}
+.company-contacts__dropdown__link{
+  color: #d4dbea;
+  cursor: pointer;
+}
+.company-contacts__dropdown:hover .company-contacts__dropdown__menu{
+  display: block;
+}
+.company-contacts__dropdown__menu{
+  position: absolute;
+  background: #fff;
+  border: 1px solid white;
+  padding: 8px;
+  width: 160px;
+  top:100%;
+  display: none;
+}
+.company-contacts__dropdown__menu:before{
+  content: "";
+  display: block;
+  height: 30px;
+  left: 0;
+  right: 0;
+  top: -29px;
+  position: absolute;
+}
+.company-contacts__dropdown__item--day{
+  color: #4b73b5;
+  font-family: roboto, arial, sans-serif;
+  font-weight: 700;
 }

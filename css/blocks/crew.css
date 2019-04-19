@@ -1,4 +1,15 @@
-.crew{
+.crew__title{
+	font-family: roboto, arial, sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	margin: 20px;
+}
+.crew__title-title{
+	font-family: "roboto", arial, sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	margin: 25px;
+	color: #4b73b5;
 }
 .crew__desk{
 	text-align: center;
@@ -58,4 +69,9 @@
 	justify-content: center;
 	text-decoration: none;
 	text-align: center;
+}
+.crew__text{
+	font-family: "roboto", arial, sans-serif;
+	font-weight: 300;
+	margin: 20px;
 }

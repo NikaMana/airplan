@@ -2,7 +2,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 60px;
 	font-family: roboto;
 }
 .pagination__display{
@@ -51,7 +50,8 @@
 .pagination__link--active{
 	background: #4b73b5;
 	text-decoration: none;
-	color: white;
-	
-	margin-right: 0;
+	color: white;	
+	margin: 0;
+	padding: 5px;
+	border-radius: 3px;
 }

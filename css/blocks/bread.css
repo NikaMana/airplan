@@ -3,6 +3,8 @@
 }
 .breadcrumbs__pages{
 	display: flex;
+	margin-top: 45px;
+	margin-bottom: 25px;
 }
 .breadcrumbs__pages-item{
 	margin-right: 5px;

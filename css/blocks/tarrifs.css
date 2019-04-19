@@ -1,18 +1,25 @@
 .tarrifs__title{
-	font-family: roboto;
-	font-weight: 300;	
+	font-family: "roboto", arial, sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	margin: 25px;	
 }
 .tarrifs__text{
-	font-family: roboto;
+	font-family: "roboto", arial, sans-serif;
 	font-weight: 300;
+	font-size: 15px;
+	margin: 18px;
 }
 .tarrifs__descr-list{
-	font-family: roboto;
+	font-family: "roboto", arial, sans-serif;
 	font-weight: 300;
+	font-size: 15px;
+	margin: 18px;
 }
 .tarrifs__price{
-	font-family: roboto;
-	font-weight: 700;
+	font-family: "roboto", arial, sans-serif;
+	font-weight: 300;
+	font-size: 40px;
 }
 .tarrifs__icon{
 	background-color: #4b73b5;
@@ -33,25 +40,29 @@
 	background-color: #4b73b5;
 }
 .tarrifs__icon-img--flower{
-	background-image: url(../images/flower.png);
+	background-image: url(../../images/flower.png);
 }
 .tarrifs__icon-img--star{
-	background-image: url(../images/star.png);
+	background-image: url(../../images/star.png);
 }
 .tarrifs__icon-img--palet{
-	background-image: url(../images/palet.png);
+	background-image: url(../../images/palet.png);
 }
 .tarrifs__list{
 	display: flex;
 	justify-content: center;
 }
-.a {
-	line-height: 100px;
-    display: inline-block;
-}
+
 .tarrifs__item{
 	width: 250px;
 	padding: 30px;
 	text-align: center;
 
+}
+.tarrifs__descr-list{
+	margin: 35px;
+}
+.tarrifs__descr-list--service{
+	list-style: disc;
+	text-align: left;
 }

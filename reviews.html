@@ -17,14 +17,17 @@
             </a>
             <div class="company-contacts">
                 <a href="tel:+78000039210" class="company-contacts__phone">8 (800) 00-392-10</a>
-                <div class="company-contacts__shedule">
-                <button class="company-contacts__shedule-button">График работы</button>
-                <div class="company-contacts__shedule-content">
-                    <div class="company-contacts__shedule-content-day">пн-вс: 09:00-20:00</div>
-                    <div class="company-contacts__shedule-content-lunch">обед: 14:00-14:30</div>
+                <div class="company-contacts__dropdown">
+                <a href="#" class="company-contacts__dropdown__link">График работы</a>
+                <div class="company-contacts__dropdown__menu">
+                    <ul class="company-contacts__dropdown__list">
+                        <li class="company-contacts__dropdown__item--day">пн-вс: 09:00-20:00</li>
+                        <li class="company-contacts__dropdown__item--lunch">обед: 14:00-14:30</li>
+                    </ul>                    
                 </div>
                 </div>
             </div>
+        </div>
     </header> 
     <div class="maincontent">
         <div class="container">
@@ -32,22 +35,13 @@
                 <nav class="nav">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="index.html" class="nav__link">
-                            <span class="nav__icon nav__icon--direction"></span>
-                            <span class="nav__title">Главная</span>
-                            </a>
+                            <a href="index.html" class="nav__link nav__link--direction">Главная</a>
                         </li>
                         <li class="nav__item nav__item--active">
-                            <span class="nav__link">
-                            <span class="nav__icon nav__icon--star"></span>
-                            <span class="nav__title">Отзывы</span>
-                            </span>
+                            <span class="nav__link nav__link--star">Отзывы</span>
                         </li>
                         <li class="nav__item">
-                            <a href="crew.html" class="nav__link">
-                            <span class="nav__icon nav__icon--crew"></span>
-                            <span class="nav__title">Экипаж</span>
-                            </a>
+                            <a href="crew.html" class="nav__link nav__link--crew">Экипаж</a>
                         </li>
                     </ul>
                 </nav>
@@ -148,25 +142,29 @@
             </div>
         </div>
     <form class="commentsform" action="get">
+        <h2 class="commentsform__title">Оставить отзыв</h2>
         <div class="container container__form">
-                <h2 class="commentsform__title">Оставить отзыв</h2>
                     <div class="commentsform__row">
                     <div class="commentsform__col">
-                        <div class="commentsform__label-box">
-                            <label class="commentsform__label" for="commentsform-name">Ваше имя</label>
+                        <label class="commentsform__label" for="commentsform-name">Ваше имя</label>
+                        <div class="commentsform__label-box">                            
                             <input id="commentsform-name" class="commentsform__text" type="text" placeholder="Андрей">
                         </div>
+                    </div>
                     <div class="commentsform__col">
+                        <label class="commentsform__label" for="commentsform-vk">Ссылка на профиль VK</label>
                         <div class="commentsform__label-box">
-                            <label class="commentsform__label" for="commentsform-vk">Ссылка на профиль VK</label>
                             <input id="commentsform-vk" class="commentsform__text" type="text" placeholder="vk.com/example">
                         </div>
                     </div>
+                    </div>
+                </div>
                         <div class="commentsform__label-ta">     
-                            <label class="commentsform__label" for="#">Текст отзыва</label>                   
+                            <label class="commentsform__label" for="#">Текст отзыва</label>
+                            <div class="commentsform__label-box">                   
                                 <textarea id="commentsform-ta" class="commentsform__textarea" name="textarea-comment" placeholder="Мне понравилось"></textarea>
                         </div>
-                    <div class="commentsform__buttons">
+                <div class="commentsform__buttons">
                     <div class="commentsform__radio">
                         <div class="commentsform__radio-phototext">Отображать фото в отзыве?</div>
                         <label class="commentsform__radio-lbl"tabindex="0"><input class="form__radio" value="yes" type="radio" name="photo" checked><span class="commentsform__radio-custom"></span>
@@ -181,11 +179,11 @@
                     </div>
                     </div>
                 </div>                
-        </div>
-</form>
+        
+    </form>
     <footer class="footer">
                 <div class="container container--flex">
-                    <div class="footer__text">Сделано с любовью и старанием <br> на курсе "HTML+CSS" в <a class="footer__text-link" href="http://loftschool.com">LoftSchool</a>.<br>Автор работы: <strong>Прохладов Вадим</strong>
+                    <div class="footer__text">Сделано с любовью и старанием <br> на курсе "HTML+CSS" в <a class="footer__text-link" href="http://loftschool.com">LoftSchool</a>.<br>Автор работы: <strong>Манякина Вероника</strong>
                     </div>
                     <div class="logo">
                         <a href="tel: 8 (800) 00-392-10" class="logo">

@@ -6,16 +6,77 @@
 	list-style: none;
 	overflow: hidden;
 }
+.nav__item:last child {
+	margin-bottom: 0;
+}
+.nav__item--active .nav__link:hover{
+	color: #4b73b5;
+}
+.nav__item--active .nav__link:hover:after{
+	opacity: 0;
+}
 .nav__link{
 	text-decoration: none;
 	display: flex;
-	font-family: roboto;
+	font-family: roboto, arial, sans-serif;
 	text-transform: uppercase;
 	color:#4b73b5;
 	margin: 20px;
+	transition: 0.5s;
+	position: relative;
+	padding-left: 30px;
 }
 .nav__link:hover{
 	color: black;
+}
+.nav__link:hover:after{
+	opacity: 1;
+}
+.nav__link:before, .nav__link:after{
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-image: url(../../images/sprite.png);
+	background-repeat: no-repeat;
+	transition: 0.5s;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.nav__link--direction:before{
+	width: 17px;
+    height: 18px;
+    background-position: -125px -43px;
+}
+.nav__link--direction:after{
+	width: 17px;
+    height: 18px;
+    background-position: -125px -71px;
+    opacity: 0;
+}
+.nav__link--star:before{
+	width: 20px;
+    height: 18px;
+    background-position: -21px -5px;
+}
+.nav__link--star:after{
+	width: 20px;
+    height: 18px;
+    background-position: -51px -5px;
+    opacity: 0;
+}
+
+.nav__link--crew:before{
+	width: 23px;
+    height: 18px;
+    background-position: -143px -5px;
+}
+.nav__link--crew:after{
+	width: 23px;
+    height: 18px;
+    background-position: -152px -33px;
+    opacity: 0;
 }
 .nav__title{
 	font-family: roboto, arial, sans-serif;
@@ -28,40 +89,12 @@
 	color: black;
 	transition: 1.5s;
 }
-.nav__icon--direction{
-	background-image: url(../images/main_icon.png);
-}
-.nav__icon--star{
-	background-image: url(../images/feed_icon.png);
-}
-.nav__icon--crew{
-	background-image: url(../images/team_icon.png);
-}
-.nav__link:hover .nav__icon--direction{
-	background-image: url(../images/main_icon-hover.png);
-}
-.nav__link:hover .nav__icon--star{
-	background-image: url(../images/feed_icon-hover.png);
-}
-.nav__link:hover .nav__icon--crew{
-	background-image: url(../images/team_icon-hover.png);
-}
+
 .nav__link:hover .nav__title{
 	color: black;
 	transition: 1.5s;
 }
-.nav__item--active .nav__icon--direction{
-	background-image: url(../images/main_icon.png);
-}
-.nav__item--active .nav__icon--star{
-	background-image: url(../images/feed_icon.png);
-}
-.nav__item--active .nav__icon--crew{
-	background-image: url(../images/team_icon.png);
-}
-.nav__item--active .nav__title {
+
+.nav__item--active {
 	color: black;
-}
-.nav__item:last child {
-	margin-bottom: 0;
 }
