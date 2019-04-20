@@ -9,11 +9,14 @@
 .nav__item:last child {
 	margin-bottom: 0;
 }
+.nav__item--active .nav__link{
+	color: #000;
+}
 .nav__item--active .nav__link:hover{
 	color: #4b73b5;
 }
-.nav__item--active .nav__link:hover:after{
-	opacity: 0;
+.nav__item--active .nav__link:after{
+	opacity: 1;
 }
 .nav__link{
 	text-decoration: none;
@@ -47,12 +50,12 @@
 .nav__link--direction:before{
 	width: 17px;
     height: 18px;
-    background-position: -125px -43px;
+    background-position: -52px -46px;
 }
 .nav__link--direction:after{
 	width: 17px;
     height: 18px;
-    background-position: -125px -71px;
+    background-position: -79px -46px;
     opacity: 0;
 }
 .nav__link--star:before{
@@ -70,12 +73,12 @@
 .nav__link--crew:before{
 	width: 23px;
     height: 18px;
-    background-position: -143px -5px;
+    background-position: -118px -5px;
 }
 .nav__link--crew:after{
 	width: 23px;
     height: 18px;
-    background-position: -152px -33px;
+    background-position: -118px -33px;
     opacity: 0;
 }
 .nav__title{

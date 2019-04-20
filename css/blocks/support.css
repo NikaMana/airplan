@@ -1,9 +1,10 @@
 .support{
 	background-color: #4bb56b;
-	background-image: url(../images/mark.png);
+	background-image: url(../../images/mark.png);
 	background-repeat: repeat;
 	margin-bottom: 60px;
 	margin-top: 60px;
+	text-align: center;
 }
 .support__text{
 	width: 700px;

@@ -25,10 +25,19 @@
 .company-contacts__dropdown{
   position: relative;
   display: flex;
+  border-radius: 3px;
 }
 .company-contacts__dropdown__link{
   color: #d4dbea;
   cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-family: roboto, arial, sans-serif;
+  font-weight: 700;
+  transition: color 0.5s;
+}
+.company-contacts__dropdown__link:hover{
+  color: #fff;
 }
 .company-contacts__dropdown:hover .company-contacts__dropdown__menu{
   display: block;
@@ -41,6 +50,7 @@
   width: 160px;
   top:100%;
   display: none;
+  border-radius: 3px;
 }
 .company-contacts__dropdown__menu:before{
   content: "";

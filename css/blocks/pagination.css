@@ -26,9 +26,15 @@
 .pagination__prev{
 	margin-right: 18px;
 	text-decoration: none;
+	color: #000;
 }
 .pagination__pages-item{
 	margin-right: 18px;
+	font-family: roboto, arial, sans-serif;
+  	font-weight: 700;
+}
+.pagination__pages-item--active{
+	margin-right: 10px;
 }
 .pagination__pages-item .pagination__pages-item--active{
 	margin-right: 10px;
@@ -43,9 +49,11 @@
 }
 .pagination__next{
 	text-decoration: none;
+	color: #000;
 }
 .pagination__link{
 	text-decoration: none;
+	color: #000;
 }
 .pagination__link--active{
 	background: #4b73b5;

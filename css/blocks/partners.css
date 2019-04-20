@@ -4,6 +4,7 @@
 	justify-content: space-between;
 
 }
+
 .part__item{
 	overflow: hidden;
 	width: 33.3%;
@@ -17,104 +18,15 @@
 	margin-bottom: 0;
 }
 
-.part__item--active .part__link:hover:after{
-	opacity: 0;
+.part__img{
+	filter: grayscale(100%);
 }
-.part__link{
-	text-decoration: none;
-	display: flex;
-	margin: 20px;
-	transition: 0.5s;
-	position: relative;
-	padding-left: 30px;
-}
-
-.part__link:hover:after{
-	opacity: 1;
-}
-.part__link:before, .part__link:after{
-	content: "";
-	display: inline-block;
-	width: 20px;
-	height: 20px;
-	background-image: url(../../images/part_sprites.png);
-	background-repeat: no-repeat;
-	transition: 0.5s;
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-.part__link--bmp:before{
-	width: 159px; 
-	height: 30px;
-    background: url(../../images/part_sprites.png) -10px -262px;
-}
-.part__link--bmp:after{
-	width: 159px; height: 30px;
-    background: url(../../images/part_sprites.png) -352px -10px;
-    opacity: 0;
-}
-.part__link--tetra:before{
-	width: 161px; 
-	height: 64px;
-    background: url(../../images/part_sprites.png) -10px -10px;
-}
-.part__link--tetra:after{
-	width: 161px; 
-	height: 64px;
-    background: url(../../images/part_sprites.png) -10px -94px;
-    opacity: 0;
-}
-
-.part__link--sib:before{
-	width: 133px; 
-	height: 64px;
-    background: url(../../images/part_sprites.png) -10px -178px;
-}
-.part__link--sib:after{
-	width: 133px; 
-	height: 64px;
-    background: url(../../images/part_sprites.png) -163px -178px;
-    opacity: 0;
-}
-.part__link--one:before{
-	width: 141px; 
-	height: 63px;
-    background: url(../../images/part_sprites.png) -191px -10px;
-}
-.part__link--one:after{
-	width: 141px; 
-	height: 63px;
-    background: url(../../images/part_sprites.png) -191px -93px;
-    opacity: 0;
-}
-.part__link--bing:before{
-	width: 46px; 
-	height: 64px;
-    background: url(../../images/part_sprites.png) -454px -60px;
-}
-.part__link--bing:after{
-	width: 46px; 
-	height: 64px;
-    background: url(../../images/part_sprites.png) -454px -144px;
-    opacity: 0;
-}
-.part__link--ural:before{
-	width: 82px; 
-	height: 64px;
-    background: url(../../images/part_sprites.png) -352px -60px;
-}
-.part__link--ural:after{
-	width: 82px; 
-	height: 64px;
-    background: url(../../images/part_sprites.png) -352px -144px;
-    opacity: 0;
-}
-
-
-
-.part__link:hover{
+.part__img:hover{
+	filter: none;
 	transition: 1.5s;
 }
+
+
+
 
 

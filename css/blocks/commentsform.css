@@ -7,15 +7,37 @@
 	justify-content: center;
 	flex-direction: column;
 }
+.container--form{
+	width: 560px;
+	flex-direction: column;
+}
+.commentsform__title{
+	display: flex;
+	font-weight: 700;
+	font-family: roboto, arial, sans-serif;
+	font-size: 35px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+.commentsform__col{
+	width: 270px;
+}
 .commentsform__row{
 	display: flex;
 	justify-content: space-between;
+	width: 100%;
+}
+.commentsform__label-ta{
+	width: 100%;
+}
+..commentsform__textarea{
+	width: 100%;
 }
 .commentsform__label-box{
 	margin: 0;
 	padding: 0;
 }
-.commentsform__textarea{
+.commentsform__text .commentsform__text--textarea{
 	resize: none;
 	display: flex;
 	flex-grow: 1;
@@ -32,9 +54,7 @@
 .commentsform__box{
 	display: flex;
 }
-.commentsform__col{
-	margin: 20px;
-}
+
 .commentsform__text{
 	width: 270px;
 	height: 45px;
@@ -44,6 +64,13 @@
 	margin: 10px 0;
 	box-sizing: border-box;
 	border: none;
+	width: 100%;
+}
+.commentsform__text:focus{
+	border: 2px solid #4b73b5;
+}
+.commentsform__textarea:focus{
+	border: 2px solid #4b73b5;
 }
 .commentsform__buttons{
 	display: flex;
@@ -116,17 +143,43 @@
 	transition: 300ms;
 	background: #4b73b5;
 	border:none;
-	font-family: roboto;
-}
-.button__icon{
-	width: 24px;
-	height: 20px;
-	color: white;
-	transition: 1.5s;
-	background: center center no-repeat;
-	padding: 0;
+	font-family: roboto, arial, sans-serif;
 	align-items: center;
 }
-.button__icon--direction{
-	background-image: url(../../images/main_icon.png);
+.commentsform__button__icon{
+	text-decoration: none;
+	display: flex;
+	font-family: roboto, arial, sans-serif;
+	text-transform: uppercase;
+	color:#4b73b5;
+	margin: 20px;
+	transition: 0.5s;
+	position: relative;
+	padding-left: 30px;
+	background-image: url(../../images/sprite.png);
+	background-position: -5px -74px;
+	margin-left: 5px;
 }
+.commentsform__button__icon:hover{
+	color:#fff;
+	background-position: -52px -46px;
+	
+}
+.commentsform__button__icon:hover:after{
+	opacity: 1;
+	color:#fff;
+	background-position: -52px -46px;
+}
+.commentsform__button__icon:before .commentsform__button__icon:after{
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-image: url(../../images/sprite.png);
+	background-repeat: no-repeat;
+	transition: 0.5s;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+

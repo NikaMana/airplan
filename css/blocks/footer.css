@@ -10,6 +10,12 @@
 	color: white;
 	font-family: roboto;
 }
+.footer__text-link{
+	color: #fff;
+	cursor: pointer;
+	font-family: roboto, arial, sans-serif;
+  	font-weight: 700;
+}
 .LoftSchool{
 	color: white;
 }

@@ -107,8 +107,8 @@
                         <div class="pagination__controlls">
                         <a href="" class="pagination__prev"><</a>
                             <ul class="pagination__pages">
-                                <li class="pagination__pages-item">
-                                <a href="#" class="pagination__link--active">1</a>
+                                <li class="pagination__pages-item pagination__pages-item--active">
+                                <a href="#" class="pagination__link">1</a>
                                 </li>
                                 <li class="pagination__pages-item">
                                 <a href="#" class="pagination__link">2</a>
@@ -136,14 +136,14 @@
         </div>
             <div class="support">
                 
-                    <div class="support__text">Вопросы по бронированию билетов в нашей авиакомпании принимаются.<br> Для этого можно оставить <a class="support__text-link" href="#">заявку на сайте</a> или же позвонить по номеру <br>круглосуточной поддержки <a class="support__phone" href="88000039210">8 (800) 00-392-10</a>.
+                    <div class="support__text">Вопросы по бронированию билетов в нашей авиакомпании принимаются.<br> Для этого можно оставить <a class="support__text-link" href="#">заявку на сайте</a> или же позвонить по номеру <br>круглосуточной поддержки <a class="support__phone" href="tel:88000039210">8 (800) 00-392-10</a>.
                     </div>
                 
             </div>
         </div>
     <form class="commentsform" action="get">
         <h2 class="commentsform__title">Оставить отзыв</h2>
-        <div class="container container__form">
+        <div class="container container--form">
                     <div class="commentsform__row">
                     <div class="commentsform__col">
                         <label class="commentsform__label" for="commentsform-name">Ваше имя</label>
@@ -158,11 +158,10 @@
                         </div>
                     </div>
                     </div>
-                </div>
                         <div class="commentsform__label-ta">     
-                            <label class="commentsform__label" for="#">Текст отзыва</label>
+                            <label class="commentsform__label" for="commentsform-ta">Текст отзыва</label>
                             <div class="commentsform__label-box">                   
-                                <textarea id="commentsform-ta" class="commentsform__textarea" name="textarea-comment" placeholder="Мне понравилось"></textarea>
+                                <textarea id="commentsform-ta" class="commentsform__text commentsform__text--textarea" name="textarea-comment" placeholder="Мне понравилось"></textarea>
                         </div>
                 <div class="commentsform__buttons">
                     <div class="commentsform__radio">
@@ -175,11 +174,11 @@
                         </label>                        
                     </div>
                     <div class="commentsform__button-block">
-                        <button class="commentsform__button" type="submit" href="#">Отправить<div class="button__icon button__icon--direction"></div></button>
+                        <button class="commentsform__button" type="submit" href="#">Отправить<span class="commentsform__button__icon"></span></button>
                     </div>
                     </div>
                 </div>                
-        
+                </div>
     </form>
     <footer class="footer">
                 <div class="container container--flex">
