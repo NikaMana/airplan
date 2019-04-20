@@ -146,31 +146,37 @@
 	font-family: roboto, arial, sans-serif;
 	align-items: center;
 }
-.commentsform__button__icon{
+
+.commentsform__button-icon{
 	text-decoration: none;
 	display: flex;
-	font-family: roboto, arial, sans-serif;
-	text-transform: uppercase;
-	color:#4b73b5;
-	margin: 20px;
-	transition: 0.5s;
-	position: relative;
-	padding-left: 30px;
+	font-size: 12px;
+	width: 12px;
+	height: 12px;	
 	background-image: url(../../images/sprite.png);
 	background-position: -5px -74px;
-	margin-left: 5px;
+	margin-left: 7px;
 }
-.commentsform__button__icon:hover{
-	color:#fff;
+.commentsform__button-icon:before{
+	width: 17px;
+    height: 18px;
+    background-position: -5px -74px;
+}
+
+.commentsform__button-icon:hover{
+	color:#4b73b5;
 	background-position: -52px -46px;
 	
 }
-.commentsform__button__icon:hover:after{
+.commentsform__button:hover .commentsform__button-icon:hover{
+	color: #4b73b5;
+}
+.commentsform__button-icon:hover:after{
 	opacity: 1;
-	color:#fff;
+	color:#4b73b5;
 	background-position: -52px -46px;
 }
-.commentsform__button__icon:before .commentsform__button__icon:after{
+.commentsform__button-icon:before .commentsform__button-icon:after{
 	content: "";
 	display: inline-block;
 	width: 20px;

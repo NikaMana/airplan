@@ -4,7 +4,10 @@
 	justify-content: space-between;
 
 }
-
+.part__logo{
+	width: 30%;
+	padding: 30px;
+}
 .part__item{
 	overflow: hidden;
 	width: 33.3%;
