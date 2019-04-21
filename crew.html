@@ -5,6 +5,7 @@
 <title>Main page</title>
 <meta name="viewport" content="widht=1100, initial-scale=1.0">
 <link rel="stylesheet" href="./css/styles.css">
+<link rel="shortcut icon" type="image/x-icon" href="../../images/favicon.ico">
 
 </head>
 <body>
@@ -30,12 +31,69 @@
         </div>
     </header> 
     <div class="maincontent">
-        <div class="container">
-                <aside class="aside">
+        <div class="container container--flex">
+            <aside class="aside">
+                <section class="part">
+                <h4 class="title">Партнеры</h4>
+                    <ul class="part__list">
+                        <li class="part__logo">
+                            <a href="#" class="part__logo--item">
+                                <img class="part__img" src="images/bmpcolor.png" alt="bmp">
+                            </a>
+                        </li>
+                        <li class="part__logo">
+                            <a href="#" class="part__logo--item">
+                                <img class="part__img" src="images/tetracolor.png" alt="bmp">
+                            </a>
+                        </li>
+                        <li class="part__logo">
+                            <a href="#" class="part__logo--item">
+                                <img class="part__img" src="images/sibcolor.png" alt="bmp">
+                            </a>
+                        </li>
+                        <li class="part__logo">
+                            <a href="#" class="part__logo--item">
+                                <img class="part__img" src="images/onecolor.png" alt="bmp">
+                            </a>
+                        </li>
+                        <li class="part__logo">
+                            <a href="#" class="part__logo--item">
+                                <img class="part__img" src="images/bingcolor.png" alt="bmp">
+                            </a>
+                        </li>
+                        <li class="part__logo">
+                            <a href="#" class="part__logo--item">
+                                <img class="part__img" src="images/uralcolor.png" alt="bmp">
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+                <div class="socials">            
+                       <h4 class="socials__title">Наши социальные сети</h4>
+                       <ul class="social__list">
+                          <li class="socials__item">
+                            <a class="social__link social__link--vk"></a>
+                          </li>
+                          <li class="socials__item">
+                            <a class="social__link social__link--fb"></a>
+                          </li>
+                          <li class="socials__item">
+                            <a class="social__link social__link--google"></a>
+                          </li>
+                          <li class="socials__item">
+                            <a class="social__link social__link--twitter"></a>
+                          </li>
+                          <li class="socials__item">
+                            <a class="social__link social__link--mail"></a>
+                          </li>                       
+                       </ul>
+                    </div>
+            </aside>
+            <main class="main">
                 <nav class="nav">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="index.html" class="nav__link nav__link--direction">Главная</a>
+                            <a href="main.html" class="nav__link nav__link--direction">Главная</a>
                         </li>
                         <li class="nav__item">
                             <a href="reviews.html" class="nav__link nav__link--star">Отзывы</a>
@@ -45,18 +103,6 @@
                         </li>
                     </ul>
                 </nav>
-            </aside>
-            <main class="main">
-                <div class="breadcrumbs">
-                   <ul class="breadcrumbs__pages">
-                        <li class="breadcrumbs__pages-item">
-                            <a href="index.html" class="breadcrumbs__link">Главная</a>
-                        </li>
-                        <li class="breadcrumbs__pages-item">
-                            <div class="breadcrumbs__link">/Экипаж</div>
-                        </li>
-                    </ul> 
-                </div>
                 <section class="crew">
                 <h1 class="title">Экипаж</h1>
                     <ul class="crew__list">
@@ -127,41 +173,7 @@
                         </li>
                     </ul>
                 </section>
-                <section class="part">
-                <h1 class="title">Партнеры</h1>
-                    <ul class="part__list">
-                        <li class="part__logo">
-                            <a href="#" class="part__logo--item">
-                                <img class="part__img" src="images/bmpcolor.png" alt="bmp">
-                            </a>
-                        </li>
-                        <li class="part__logo">
-                            <a href="#" class="part__logo--item">
-                                <img class="part__img" src="images/tetracolor.png" alt="bmp">
-                            </a>
-                        </li>
-                        <li class="part__logo">
-                            <a href="#" class="part__logo--item">
-                                <img class="part__img" src="images/sibcolor.png" alt="bmp">
-                            </a>
-                        </li>
-                        <li class="part__logo">
-                            <a href="#" class="part__logo--item">
-                                <img class="part__img" src="images/onecolor.png" alt="bmp">
-                            </a>
-                        </li>
-                        <li class="part__logo">
-                            <a href="#" class="part__logo--item">
-                                <img class="part__img" src="images/bingcolor.png" alt="bmp">
-                            </a>
-                        </li>
-                        <li class="part__logo">
-                            <a href="#" class="part__logo--item">
-                                <img class="part__img" src="images/uralcolor.png" alt="bmp">
-                            </a>
-                        </li>
-                    </ul>
-                </section>
+                
             </main>
         </div>
             <footer class="footer">
@@ -173,26 +185,7 @@
                         <img class="logo__link" src="images/logo_header.png" alt="Логотип Air Planet">
                         </a>
                     </div>  
-                    <div class="socials">            
-                       <h4 class="socials__title">Наши социальные сети</h4>
-                       <ul class="social__list">
-                          <li class="socials__item">
-                            <a class="social__link social__link--vk"></a>
-                          </li>
-                          <li class="socials__item">
-                            <a class="social__link social__link--fb"></a>
-                          </li>
-                          <li class="socials__item">
-                            <a class="social__link social__link--google"></a>
-                          </li>
-                          <li class="socials__item">
-                            <a class="social__link social__link--twitter"></a>
-                          </li>
-                          <li class="socials__item">
-                            <a class="social__link social__link--mail"></a>
-                          </li>                       
-                       </ul>
-                    </div>
+                    
                 </div>          
         </footer>
 </div>

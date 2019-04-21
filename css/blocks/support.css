@@ -1,9 +1,15 @@
 .support{
-	background-color: #4bb56b;
+	background-color: #4b73b5;
 	background-image: url(../../images/mark.png);
 	background-repeat: repeat;
-	margin-bottom: 60px;
-	margin-top: 60px;
+	text-align: center;
+	
+	align-self: flex-start;
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	width: 250px;
+	padding: 20px;
 	text-align: center;
 }
 .support__text{
@@ -12,7 +18,14 @@
 	padding: 40px 0;
 	color: #fff;
 }
+.support__text-link{
+	font-family: roboto, arial,sans-serif;
+	font-weight: 700;
+	color: #fff;
+}
 .support__phone{
 	font-family: roboto, arial,sans-serif;
 	font-weight: 700;
+	color: #fff;
 }
+

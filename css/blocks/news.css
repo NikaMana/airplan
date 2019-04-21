@@ -1,12 +1,26 @@
 .news__list{
-	margin-bottom: 60px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-decoration: none;
+	text-align: center;
+
 }
 .news__item{
+	width: 250px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
 	display: flex;
 	overflow: hidden;
-	margin: 55px;
+	width: 33.3%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;	
 	font-family: roboto, arial, sans-serif;
 }
+
+
 .news__avatar{
 	margin: 20px;
 	overflow: hidden;

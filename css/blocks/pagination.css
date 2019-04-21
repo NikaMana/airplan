@@ -2,7 +2,9 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: roboto;
+	font-family: roboto, arial, sans-serif;
+	margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 .pagination__display{
 	display: flex;

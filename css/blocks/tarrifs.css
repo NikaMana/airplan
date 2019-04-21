@@ -2,7 +2,17 @@
 	font-family: "roboto", arial, sans-serif;
 	font-weight: 700;
 	font-size: 15px;
-	margin: 25px;	
+	margin: 25px;
+	text-align: center;
+	text-transform: uppercase;	
+}
+.tarrifs__title--title{
+	font-family: "roboto", arial, sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	margin: 25px;
+	text-align: center;
+	text-transform: uppercase;
 }
 .tarrifs__text{
 	font-family: "roboto", arial, sans-serif;
@@ -20,6 +30,7 @@
 	font-family: "roboto", arial, sans-serif;
 	font-weight: 300;
 	font-size: 40px;
+	text-align: center;
 }
 .tarrifs__icon{
 	background-color: #4b73b5;

@@ -5,6 +5,7 @@
 <title>Main page</title>
 <meta name="viewport" content="widht=1100, initial-scale=1.0">
 <link rel="stylesheet" href="./css/styles.css">
+<link rel="shortcut icon" type="image/x-icon" href="../../images/favicon.ico">
 
 </head>
 <body>
@@ -30,12 +31,40 @@
         </div>
     </header> 
     <div class="maincontent">
-        <div class="container">
-                <aside class="aside">
+        <div class="container container--flex">
+            <aside class="aside">
+                <div class="support">
+                
+                    <div class="support__text">Вопросы по бронированию билетов в нашей авиакомпании принимаются.<br> Для этого можно оставить <a class="support__text-link" href="#">заявку на сайте</a> или же позвонить по номеру <br>круглосуточной поддержки <br><a class="support__phone" href="tel:88000039210">8 (800) 00-392-10</a>.
+                    </div>
+                
+            </div>
+                <div class="socials">            
+                       <h4 class="socials__title">Наши социальные сети</h4>
+                       <ul class="social__list">
+                          <li class="socials__item">
+                            <a class="social__link social__link--vk"></a>
+                          </li>
+                          <li class="socials__item">
+                            <a class="social__link social__link--fb"></a>
+                          </li>
+                          <li class="socials__item">
+                            <a class="social__link social__link--google"></a>
+                          </li>
+                          <li class="socials__item">
+                            <a class="social__link social__link--twitter"></a>
+                          </li>
+                          <li class="socials__item">
+                            <a class="social__link social__link--mail"></a>
+                          </li>                       
+                       </ul>
+                    </div>
+            </aside>
+            <main class="main">
                 <nav class="nav">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="index.html" class="nav__link nav__link--direction">Главная</a>
+                            <a href="main.html" class="nav__link nav__link--direction">Главная</a>
                         </li>
                         <li class="nav__item nav__item--active">
                             <span class="nav__link nav__link--star">Отзывы</span>
@@ -45,18 +74,6 @@
                         </li>
                     </ul>
                 </nav>
-            </aside>
-            <main class="main">
-                <div class="breadcrumbs">
-                   <ul class="breadcrumbs__pages">
-                        <li class="breadcrumbs__pages-item">
-                            <a href="index.html" class="breadcrumbs__link">Главная</a>
-                        </li>
-                        <li class="breadcrumbs__pages-item">
-                            <div class="breadcrumbs__link">/Отзывы</div>
-                        </li>
-                    </ul> 
-                </div>
                 <section class="review">
                 <h1 class="title">Отзывы</h1>
                             <ul class="review__list">
@@ -134,12 +151,7 @@
                 </div>                        
             </main>
         </div>
-            <div class="support">
-                
-                    <div class="support__text">Вопросы по бронированию билетов в нашей авиакомпании принимаются.<br> Для этого можно оставить <a class="support__text-link" href="#">заявку на сайте</a> или же позвонить по номеру <br>круглосуточной поддержки <a class="support__phone" href="tel:88000039210">8 (800) 00-392-10</a>.
-                    </div>
-                
-            </div>
+            
         </div>
     <form class="commentsform" action="get">
         <h2 class="commentsform__title">Оставить отзыв</h2>
@@ -174,11 +186,11 @@
                         </label>                        
                     </div>
                     <div class="commentsform__button-block">
-                        <button class="commentsform__button" type="submit" href="#">Отправить<span class="commentsform__button-icon"></span></button>
+                        <button class="commentsform__button" type="submit" href="#">Отправить<span class="commentsform__button__icon"></span></button>
                     </div>
                     </div>
                 </div>                
-                </div>
+        </div>
     </form>
     <footer class="footer">
                 <div class="container container--flex">
@@ -189,26 +201,7 @@
                         <img class="logo__link" src="images/logo_header.png" alt="Логотип Air Planet">
                         </a>
                     </div>  
-                    <div class="socials">            
-                       <h4 class="socials__title">Наши социальные сети</h4>
-                       <ul class="social__list">
-                          <li class="socials__item">
-                            <a class="social__link social__link--vk"></a>
-                          </li>
-                          <li class="socials__item">
-                            <a class="social__link social__link--fb"></a>
-                          </li>
-                          <li class="socials__item">
-                            <a class="social__link social__link--google"></a>
-                          </li>
-                          <li class="socials__item">
-                            <a class="social__link social__link--twitter"></a>
-                          </li>
-                          <li class="socials__item">
-                            <a class="social__link social__link--mail"></a>
-                          </li>                       
-                       </ul>
-                    </div>
+                    
                 </div>          
         </footer>
 </div>
