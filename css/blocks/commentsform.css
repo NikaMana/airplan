@@ -161,9 +161,9 @@ min-height: 100px;
 }
 
 
-.commentsform__button-icon:hover:after{
+.commentsform__button:hover .commentsform__button-icon:after{
 	
-	opacity: 0;
+	opacity: 1;
 	
 }
 .commentsform__button-icon:after{
@@ -179,9 +179,7 @@ min-height: 100px;
 	background-position: -52px -46px;
 }
 
-.commentsform__button-icon:hover{
-	
-}
+
 .commentsform__button-icon:before{
 	content: "";
 	display: inline-block;

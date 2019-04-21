@@ -185,7 +185,7 @@ button{
 	height: 18px;
 	background-position: -5px -74px;
 }
-.welcome__enter--icon:hover:after{
+.welcome__enter--btn:hover .welcome__enter--icon:after{
 	opacity: 1;
 }
 .welcome__enter--icon:hover{
