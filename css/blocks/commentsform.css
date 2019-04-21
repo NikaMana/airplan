@@ -161,17 +161,13 @@ min-height: 100px;
 }
 
 
-.commentsform__button:hover .commentsform__button-icon:after{
-	
-	opacity: 1;
-	
-}
+
 .commentsform__button-icon:after{
 	content: "";
 	width: 17px;
 	height: 18px;
 	background-image: url(../../images/sprite.png);
-	transition: 300s;
+	transition: opacity 300ms;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -180,17 +176,14 @@ min-height: 100px;
 }
 
 
-.commentsform__button-icon:before{
-	content: "";
-	display: inline-block;
-	width: 17px;
-	height: 18px;
-	background-image: url(../../images/sprite.png);
-	background-repeat: no-repeat;
-	background-position: -5px -74px;
+.commentsform__button:hover {
+	color: #4b73b5;
+	background-color: #fff;
 }
-.commentsform__button-icon:hover:before{
-	width: 17px;
-    height: 18px;
-    background-position: -52px -46px;
+.commentsform__button:hover .commentsform__button-icon:after{
+	
+	opacity: 1;
+	
 }
+
+
