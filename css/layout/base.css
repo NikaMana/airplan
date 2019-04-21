@@ -186,7 +186,7 @@ button{
 	background-position: -5px -74px;
 }
 .welcome__enter--icon:hover:after{
-	opacity: 0;
+	opacity: 1;
 }
 .welcome__enter--icon:hover{
 	content:"";
