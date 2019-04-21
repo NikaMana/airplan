@@ -1,23 +1,41 @@
-
+.part{
+	border: 1px solid black;
+	margin: 0;
+	padding: 0;
+}
+.part__title{
+	font-family: "roboto", arial, sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	margin: 25px;
+	text-align: center;
+	text-transform: uppercase;
+}
 .part__logo{
 	width: 30%;
 	padding: 30px;
+	align-items: center;
 }
 .part__item{
 	overflow: hidden;
-	width: 33.3%;
+	
 	height: 68px; 
 	background: center center no-repeat;
 	list-style: none;
-	padding: 65px;
+	width: 250px;
+	padding: 30px;
+	text-align: center;
 }
 
 .part__item:last child {
 	margin-bottom: 0;
 }
-
+.part__logo{
+	align-items: center;
+}
 .part__img{
 	filter: grayscale(100%);
+	align-items: center;
 }
 .part__img:hover{
 	filter: none;

@@ -34,7 +34,7 @@ button{
 	box-sizing: border-box;
 }
 .container{
-	width: 1060px;
+	width: 1160px;
 	margin: 0 auto;
 }
 .block {
@@ -59,10 +59,24 @@ button{
 }
 
 .aside{
-	width: 30%;
+	width: 20%;
 	align-self: flex-start;
 	margin-top: 30px;
+	padding-top: 30px;
+	text-align: center;
 
+}
+.title-aside{
+	font-family: "roboto", arial, sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	margin: 25px;
+	text-align: center;
+	text-transform: uppercase;	
+}
+.container--flex{
+	display: flex;
+	justify-content: space-between;
 }
 .main{
 	width: 80%;
@@ -99,13 +113,25 @@ button{
 .welcome__center--block{
 	display: flex;
 	flex-direction: column;
-	animation: bounce 1s 1s infinite cubic-bezier(.46,1.29,1,.83);
+	animation: bounce 1s 1s cubic-bezier(.46,1.29,1,.83);
 }
 
 .welcome__logo{
 	margin-bottom: 10px;
 	text-align: center;
+	
 }
+
+.welcome__enter--icon{
+	width: 17px;
+    height: 18px;
+    background-position: -52px -46px;	
+	background-image: url(../../images/sprite.png);
+	margin-left: 7px;
+	transition: 300ms;
+	position: absolute;
+}
+
 .welcome__enter--btn{
 	display: block;
 	color: #4b73b5;
@@ -113,9 +139,74 @@ button{
 	text-decoration: none;
 	padding: 13px 20px;
 	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 15px;
+	width: 200px;
+	text-align: center;
+	transition: 300ms;
+	position: relative;
+	padding:10px;
+	
+}
+
+.welcome__enter--btn:hover{
+	display: block;
+	color: #fff;
+	border: 2px solid currentColor;
+	text-decoration: none;
+	padding: 13px 20px;
+	text-transform: uppercase;
 	font-size: 12px;
 	width: 200px;
 	text-align: center;
+}
+
+.welcome__enter--icon:before .welcome__enter--icon:after{
+	content: "";
+	display: inline-block;
+	width: 17px;
+	height: 18px;
+	background-image: url(../../images/sprite.png);
+	background-repeat: no-repeat;
+	background-position: -52px -46px;
+	transition: 300ms;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.welcome__enter--btn:hover .welcome__enter--icon:hover{
+	transition: 1.5s;
+}
+
+
+.welcome__enter--icon:hover:before{
+	width: 17px;
+	height: 18px;
+	background-position: -5px -74px;
+}
+.welcome__enter--icon:hover:after{
+	opacity: 0;
+}
+.welcome__enter--icon:hover{
+	content:"";
+	width: 17px;
+	height: 18px;
+	background-image: url(../../images/sprite.png);
+	background-position: -5px -74px;	
+}
+
+.welcome__enter--icon:after{
+	content: "";
+	width: 17px;
+	height: 18px;
+	background-image: url(../../images/sprite.png);
+	background-position: -5px -74px;
+	transition: 300s;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	
 }
 @keyframes bounce{
 	0% {

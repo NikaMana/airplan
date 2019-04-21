@@ -1,15 +1,8 @@
+
 .tarrifs__title{
 	font-family: "roboto", arial, sans-serif;
 	font-weight: 700;
-	font-size: 15px;
-	margin: 25px;
-	text-align: center;
-	text-transform: uppercase;	
-}
-.tarrifs__title--title{
-	font-family: "roboto", arial, sans-serif;
-	font-weight: 700;
-	font-size: 25px;
+	font-size: 13px;
 	margin: 25px;
 	text-align: center;
 	text-transform: uppercase;
@@ -76,4 +69,5 @@
 .tarrifs__descr-list--service{
 	list-style: disc;
 	text-align: left;
+	margin-bottom: 10px;
 }
